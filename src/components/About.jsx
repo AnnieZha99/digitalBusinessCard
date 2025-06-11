@@ -2,8 +2,9 @@ export default function About() {
   return (
     <div className="about">
         <h1>About</h1>
-        <span>I’m Annie Zha, a systems engineering graduate from Cornell University with a background in software development, cloud infrastructure, and AI integration. 
-            I’ve built scalable web and mobile applications for government and research clients, and I enjoy building user-centered technology.
+        <span>Systems engineer and developer with a foundation in math, software, and quality. 
+            I design high-impact, data-informed solutions that blend systems thinking, AI, and engineering—especially in complex, 
+            cross-functional environments such as public service, healthcare,  and manufacturing.
         </span>
     </div>
   );
