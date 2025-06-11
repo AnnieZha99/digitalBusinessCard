@@ -1,3 +1,7 @@
+import headshot from '../assets/Headshot.jpg';
+import emailIcon from '../assets/Mail.png';
+import linkedInIcon from '../assets/linkedin.png';
+
 export default function Info() {
     const openEmail = () => {
     window.location.href = 'mailto:yz337@cornell.edu';
@@ -9,20 +13,20 @@ export default function Info() {
     
     return (
         <>
-        <img src="src\assets\Headshot.jpg" alt="Annie Zha" className="myImage" />
+        <img src={headshot} alt="Annie Zha" className="myImage" />
         <h1 className="myName">Annie Zha</h1>
         <p className="myTitle">Systems Engineer / Software Developer</p>
         <p className="myWebsite">+1 607-592-8675</p>
         <div className="myButtons">
             <button className="myEmailButton"  onClick={openEmail}>
                 <span class="btn-content">
-                    <img src="src\assets\Mail.png" alt="Email Icon" className="emailIcon" />
+                    <img src={emailIcon} alt="Email Icon" className="emailIcon" />
                     Email
                 </span>
             </button>
             <button className="myLinkedInButton" onClick={openLinkedIn}>
                 <span class="btn-content">
-                    <img src="src\assets\linkedin.png" alt="LinkedIn Icon" className="linkedinIcon" />
+                    <img src={linkedInIcon} alt="LinkedIn Icon" className="linkedinIcon" />
                     <span>LinkedIn</span>
                 </span>
             </button>
