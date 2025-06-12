@@ -155,10 +155,26 @@ main {
 .myButtons {
   width: 80%;
   display:flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 12px;                   /* space between buttons */
+  flex-wrap: wrap;             /* allow stacking on small screens */
+  margin: 16px auto;
   display: -webkit-flex;
 }
 
 button {
   width: 130px;
+}
+
+@media (max-width: 480px) {
+  .button-row {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .myEmailButton,
+  .myLinkedInButton {
+    width: 80%;
+    justify-content: center;
+  }
 }
