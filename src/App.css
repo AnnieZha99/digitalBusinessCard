@@ -41,8 +41,8 @@
 .card {
   background-color: #1A1B21;
   border-radius: 16px;
-  max-width: 100%;
-  margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
   overflow: hidden;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
   height: fit-content;
@@ -97,13 +97,15 @@
   color: #FFFFFF;
   margin-top: 1rem;
   line-height: 1.5;
-  display: flex
+  display: flex;
+  display: -webkit-flex;
 }
 
 .about > span {
   font-size: 10.24px;
   color: #FFFFFF;
   display: flex;
+  display: -webkit-flex;
   text-align: left;
 }
 
@@ -120,12 +122,15 @@
   color: #FFFFFF;
   display: flex;
   text-align: left;
+  display: -webkit-flex;
 }
 
 main {
   width: 80%;
   align-content: center;
   display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: center;
   justify-content: center;
   flex-direction: column;
   margin-bottom: 30px;
@@ -151,6 +156,7 @@ main {
   width: 80%;
   display:flex;
   justify-content: space-between;
+  display: -webkit-flex;
 }
 
 button {
