@@ -97,14 +97,12 @@
   color: #FFFFFF;
   margin-top: 1rem;
   line-height: 1.5;
-  display: flex;
   display: -webkit-flex;
 }
 
 .about > span {
   font-size: 10.24px;
   color: #FFFFFF;
-  display: flex;
   display: -webkit-flex;
   text-align: left;
 }
@@ -114,15 +112,18 @@
   color: #FFFFFF;
   margin-top: 1rem;
   line-height: 1.5;
-  display: flex
 }
 
 .interests > span {
   font-size: 10.24px;
   color: #FFFFFF;
-  display: flex;
   text-align: left;
   display: -webkit-flex;
+}
+
+.about, .interests {
+  padding: 0 20px;
+  text-align: left;
 }
 
 main {
@@ -163,7 +164,7 @@ main {
 }
 
 button {
-  width: 130px;
+  width: 40%;
 }
 
 @media (max-width: 480px) {
