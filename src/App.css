@@ -122,20 +122,20 @@
 }
 
 .about, .interests {
-  padding: 0 20px;
   text-align: left;
 }
 
 main {
-  width: 80%;
-  align-content: center;
+  max-width: 360px;
+  width: 100%;
+  margin: 0 auto 30px;
+  padding: 0 20px; /* Give main the padding, not its children */
   display: flex;
-  display: -webkit-flex;
-  -webkit-justify-content: center;
-  justify-content: center;
   flex-direction: column;
-  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .footer {
   background-color: #161619;
