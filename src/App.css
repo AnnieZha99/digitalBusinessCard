@@ -175,7 +175,7 @@ button {
 
   .myEmailButton,
   .myLinkedInButton {
-    width: 80%;
+    width: 40%;
     justify-content: center;
   }
 }
